@@ -62,17 +62,16 @@ function init() {
             let readmeContent = `
                 # ${answer.title}
 
-                ## Description
+                # Table of Contents 
+                 [Description](#description)
+                 [Usage](#usage)
+                 [Credits](#credits)
+                 [License](#license)
+                 [Tests](#tests)
+
+                ## Description <a name="description"></a>
                 ${answer.description}
-
-
-                ## Table of Contents (Optional)
-
-                - [Usage](#usage)
-                - [Credits](#credits)
-                - [License](#license)
-                - [Tests](#tests)
-
+                
                 ## Usage
                 ${answer.usage}
 
@@ -81,6 +80,11 @@ function init() {
 
                 ## License
                 ${answer.license}
+
+                ## Questions
+                My GitHub Repo: https://github.com/${answer.github}
+                Any further Questions reach me at ${answer.email}
+
 
                 ## Tests
                 ${answer.test}
