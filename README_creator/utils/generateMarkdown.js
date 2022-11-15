@@ -44,32 +44,32 @@ function generateMarkdown(data) {
   return `# ${data.title}
 ${renderLicenseBadge(data.license)}
 
-                ## Table of Contents 
+                ##Table of Contents 
                  [Description](#Description)
                  [Usage](#Usage)
                  [Credits](#Credits)
                  [License](#License)
                  [Tests](#Tests)
 
-                ## Description
+                ##Description
                 ${data.description}
                 
-                ## Usage
+                ##Usage
                 ${data.usage}
 
-                ## Credits
+                ##Credits
                 ${data.contributors}
 
-                ## License
+                ##License
                 ${data.license}
                 ${renderLicenseSection(data.license)}
 
-                ## Questions
+                ##Questions
                 My GitHub Repo: https://github.com/${data.github}
                 Any further Questions reach me at ${data.email}
 
 
-                ## Tests
+                ##Tests
                 ${data.test}
 
 

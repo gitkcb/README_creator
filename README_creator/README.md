@@ -1,33 +1,33 @@
-# kevin 
-[![Apache2.0 license](https://img.shields.io/badge/License-Apache2.0-blue.svg)]
+# kevin
+[![GNUv3.0 license](https://img.shields.io/badge/License-GNUv3.0-blue.svg)]
 
-                ## Table of Contents 
+                ##Table of Contents 
                  [Description](#Description)
                  [Usage](#Usage)
                  [Credits](#Credits)
                  [License](#License)
                  [Tests](#Tests)
 
-                ## Description
+                ##Description
                 kevin
                 
-                ## Usage
-                kevink
+                ##Usage
+                kevin
 
-                ## Credits
-                kevink
+                ##Credits
+                kevin
 
-                ## License
-                Apache2.0
+                ##License
+                GNUv3.0
                 undefined
 
-                ## Questions
+                ##Questions
                 My GitHub Repo: https://github.com/kevin
-                Any further Questions reach me at kevin
+                Any further Questions reach me at kevib
 
 
-                ## Tests
-                kevin
+                ##Tests
+                kevib
 
 
 
