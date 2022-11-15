@@ -32,7 +32,7 @@ const questions = [
         type: "list",
         message: "Choose your license for your application",
         name: "license",
-        choices: ["Apache License 2.0","GNU General Public License v3.0","MIT License","Eclipse Public License","The Unilicense"],
+        choices: ["Apache License 2.0", "GNU General Public License v3.0", "MIT License", "Eclipse Public License", "The Unilicense"],
     },
     {
         type: "input",
@@ -51,19 +51,44 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile(fileName, data, (err) => err ? console.error(err): console.log("Information has been saved"))
-    }
+    fs.writeFile(fileName, data, (err) => err ? console.error(err) : console.log("Information has been saved"))
+}
 
 
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions)
-    .then((answer) => {
-        let readmeContent = `
-        `
-        writeToFile();
+        .then((answer) => {
+            let readmeContent = `
+                # ${answer.title}
+
+                ## Description
+                ${answer.description}
+
+
+                ## Table of Contents (Optional)
+
+                - [Usage](#usage)
+                - [Credits](#credits)
+                - [License](#license)
+                - [Tests](#tests)
+
+                ## Usage
+                ${answer.usage}
+
+                ## Credits
+                ${answer.contributors}
+
+                ## License
+                ${answer.license}
+
+                ## Tests
+                ${answer.test}
+
+`
+    writeToFile("README.md", readmeContent);
     })
- }
+}
 
 // Function call to initialize app
 init();
