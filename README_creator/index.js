@@ -26,14 +26,14 @@ const questions = [
     },
     {
         type: "input",
-        message: "Tests for this project",
+        message: "What are the tests for this project?",
         name: "test",
     },
     {
         type: "list",
         message: "Choose your license for your application",
         name: "license",
-        choices: ["Apache License 2.0", "GNU General Public License v3.0", "MIT License", "Eclipse Public License", "The Unilicense"],
+        choices: ["Apache2.0", "GNUv3.0", "MIT", "EPL", "Unlicense"],
     },
     {
         type: "input",
