@@ -14,7 +14,7 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license === "MIT"){
-    console.log("i ran");
+    
     return "https://lbesson.mit-license.org/"
   }
   else if(license === "Apache2.0"){
